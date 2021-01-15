@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/gmate/projects/macierz/include/macierz/Matrix.hpp
+iostream
+-
+fstream
+-
+string
+-
+exception
+-
+
+C:/Users/gmate/projects/macierz/src/main.cpp
+../include/macierz/Matrix.hpp
+C:/Users/gmate/projects/macierz/include/macierz/Matrix.hpp
+
